@@ -1,0 +1,159 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    color: hsl(0, 0%, 56%);
+    font-weight: 200;
+    font-size: 12px;
+    line-height: 22px;
+}
+
+.attribution {
+    text-align: center;
+}
+
+.mainHeader {
+    font-weight: 200;
+    color: Gray: hsl(0, 0%, 98%);
+}
+
+.subheader {
+    font-weight: 600;
+}
+
+.textContainer {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 5%;
+
+}
+
+.insideContainer {
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    width: 40%;
+}
+
+
+.smallIcon {
+    float: right;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 25px;
+    border-radius: 15px;
+    width: 90%;
+    padding-right: 3%;
+    padding-left: 3%;
+    padding-top: 3%;
+    padding-bottom: 0;
+    margin-bottom: 5%;
+}
+
+.cardOne {
+    border-top: 5px solid hsl(180, 62%, 55%);
+    grid-column-start: span 1;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    padding: 20px;
+    height: 200px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 3px 3px 15px -5px hsl(212, 34%, 68%);
+}
+
+.cardTwo {
+    border-top: 5px solid hsl(0, 78%, 62%);
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: span 2;
+    padding: 20px;
+    height: 200px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 3px 3px 15px -5px hsl(212, 34%, 68%);
+
+}
+
+.cardThree {
+    border-top: 5px solid hsl(34, 97%, 64%);
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: span 2;
+    padding: 20px;
+    height: 200px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 3px 3px 15px -5px hsl(212, 34%, 68%);
+
+}
+
+
+.cardFour {
+    border-top: 5px solid hsl(212, 86%, 64%);
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    padding: 20px;
+    height: 200px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 3px 3px 15px -5px hsl(212, 34%, 68%);
+
+}
+
+@media only screen and (max-width: 400px) {
+    .insideContainer {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    h1 {
+        font-size: 25px;
+        padding: 4px;
+
+    }
+
+    p {
+        font-size: 18px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .card {
+        display: block;
+        margin-top: 20px;
+    }
+
+    .cardOne {
+        margin-bottom: 23px;
+    }
+
+    .cardTwo {
+        margin-bottom: 23px;
+        padding-bottom: 40px;
+    }
+
+    .cardThree {
+        margin-bottom: 23px;
+
+    }
+
+    .cardFour {
+        margin-bottom: 23px;
+        padding-bottom: 40px;
+    }
+
+    .attribution {
+        font-size: 10px;
+    }
+
+}
